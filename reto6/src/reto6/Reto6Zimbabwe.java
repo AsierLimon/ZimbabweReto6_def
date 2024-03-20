@@ -668,6 +668,7 @@ public class Reto6Zimbabwe {
 		num = (int)(Math.random() * (50));
 		palabra = palabras[num].toUpperCase();
 
+		sc.nextLine();
 		// Bucle principal del juego
 		while(fallos<=5 && !acertado) {
 			// Mostrar la palabra oculta con guiones bajos representando las letras no adivinadas
